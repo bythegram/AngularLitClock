@@ -1,0 +1,22 @@
+.container-fluid {
+	height: 100vh
+}
+.row {
+	height: 100%;
+}
+.quote-text {
+	font-size: 9vh;
+	line-height: 1.2;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+.max-100 {
+	max-width: 100%;
+	max-height: 90%;
+}
+
+@media screen and (orientation: portrait) {
+	.quote-text {
+		font-size: 9vw;
+	}
+}
