@@ -5,10 +5,13 @@
 	height: 100%;
 }
 .quote-text {
-	font-size: 9vh;
+	font-size: 8vh;
 	line-height: 1.2;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
+}
+.quote-text.smaller {
+  font-size: 6vh;
 }
 .max-100 {
 	max-width: 100%;
@@ -17,6 +20,9 @@
 
 @media screen and (orientation: portrait) {
 	.quote-text {
-		font-size: 9vw;
+		font-size: 8vw;
 	}
+  .quote-text.smaller {
+    font-size: 6vw;
+  }
 }
