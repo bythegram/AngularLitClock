@@ -29,3 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Credits
 
 Insperation and quotes where take from this fantastic [Instructables](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/). I made some tweaks to the spreadsheet so that it is easily converted into a json file.
+Quotes where also sourced from [The Guardian](https://www.theguardian.com/books/table/2011/apr/21/literary-clock)
