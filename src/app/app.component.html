@@ -1,9 +1,11 @@
 <div class="container-fluid">
 <div class="row justify-content-center align-items-center">
 	<div class="col-auto max-100">
-		<p [innerHTML]="quote" class="text-uppercase quote-text"></p>
-		<p class="text-right"><strong>{{book}}</strong><br /><em>{{author}}</em>
+		<p [innerHTML]="litTime.quote" class="text-uppercase quote-text" [class.smaller]="litTime.quote.length > 300"></p>
+		<p class="text-right"><strong>{{litTime.book}}</strong><br /><em>{{litTime.author}}</em>
 	</div>
+  <div class="col-12 align-self-end">
+    <a href="https://bythegram.ca/blog/angular-literary-clock" target="_blank">Credit</a>
+  </div>
 </div>
 </div>
-
