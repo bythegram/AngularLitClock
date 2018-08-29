@@ -30,13 +30,13 @@ export class LitTimeService {
         quote: quote.replace(label, '<strong>' + label + '</strong>'),
         author: '-' + randomItem.author,
         book: randomItem.book
-      }
+      };
     } else {
       litTime = {
         quote: time,
         book: '',
         author: ''
-      }
+      };
     }
     return litTime;
   }

@@ -9,7 +9,7 @@ import { LitTimeService } from './app.service';
   providers: [LitTimeService]
 })
 export class AppComponent implements OnInit {
-  litTime: TimeQuoteInterface
+  litTime: TimeQuoteInterface;
   constructor(private litService: LitTimeService) {
   }
 

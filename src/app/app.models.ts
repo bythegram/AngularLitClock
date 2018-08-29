@@ -1,5 +1,5 @@
 export interface TimeQuoteInterface {
-  quote: string,
-  book: string,
-  author: string
+  quote: string;
+  book: string;
+  author: string;
 }
