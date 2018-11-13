@@ -2,29 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+## Contributing
+I need more data! Please feel free to add quotes to the json file located here: src/app/litclock.json in the following format:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+`
+{
+    "timecode": "string - Twenty four hour time ex: 13:01",
+    "label": "string - time string that will match in the quote ex: One minute after One",
+    "quote": "string - the quote ex: The time on the clone was One minute after One",
+    "book": "string - book title",
+    "author": "string - author"
+}
+`
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/www` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Credits
 
