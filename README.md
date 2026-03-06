@@ -116,7 +116,7 @@ npm run e2e
 1. On initialisation, `LitTimeService.shuffleArray()` randomises the quote dataset so multiple quotes at the same minute appear in a random order across visits.
 2. `LitTimeService.getTime()` reads the current hour and zero-padded minute, filters the dataset for matching `timecode` entries, and returns the first result (which is random due to the shuffle).
 3. The matched quote's time-label string is wrapped in `<strong>` tags for visual emphasis.
-4. The component polls `getTime()` every **60 seconds** via `setInterval`, so the display stays in sync with the real-world clock.
+4. On load, a `setTimeout` fires at the next wall-clock minute boundary (computed as `(60 - seconds) * 1000 - milliseconds`), then a regular 60-second `setInterval` takes over. This ensures the quote always updates within a second of the minute changing, regardless of when the app was opened.
 
 ---
 
