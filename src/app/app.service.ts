@@ -22,7 +22,6 @@ export class LitTimeService {
       return currentItem.timecode === time;
     });
     const randomItem = arrayMapped[0];
-    // console.log(randomItem, time);
     if (randomItem) {
       const quote = randomItem.quote.toLowerCase();
       const label = randomItem.label.toLowerCase();

@@ -14,12 +14,12 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.litTime = this.litService.getTime();
     this.litService.shuffleArray();
+    this.litTime = this.litService.getTime();
 
     setInterval(() => {
       this.litTime = this.litService.getTime();
-    }, 1);
+    }, 60000);
 
   }
 
