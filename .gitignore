@@ -1,7 +1,1 @@
-# NativeScript
-platforms/
-hooks/
-src/**/*.js
-
-dist/www/
 node_modules/
