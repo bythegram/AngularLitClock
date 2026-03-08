@@ -1,6 +1,6 @@
 # LitClock
 
-**[Live Demo](https://bythegram.github.io/AngularLitClock/)**
+**[Live Demo](https://bythegram.github.io/Literally-Clock/)**
 
 A literary clock that displays the current time through quotations from famous novels and literary works. Instead of showing a traditional clock face, it finds a passage from literature where the time mentioned matches the current real-world time — updated every minute.
 
