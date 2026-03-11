@@ -130,26 +130,25 @@ Times are in 24-hour `H:MM` format, matching the `timecode` field in the dataset
 
 Target hours in order of lowest coverage first, then finish the near-complete hours last:
 
-1. **14:xx** — 48 % (31 missing) — afternoon, lots of literary action scenes
-2. **01:xx** — 50 % (30 missing) — late-night, rich in literary insomnia/drama
-3. **06:xx** — 50 % (30 missing) — dawn, rich in literary awakenings
-4. **18:xx** — 52 % (29 missing) — evening, dinner, social scenes
-5. **17:xx** — 53 % (28 missing) — late afternoon
-6. **21:xx** — 53 % (28 missing) — evening
+1. **06:xx** — 50 % (30 missing) — dawn, rich in literary awakenings
+2. **14:xx** — 50 % (30 missing) — afternoon, lots of literary action scenes
+3. **01:xx** — 53 % (28 missing) — late-night, rich in literary insomnia/drama
+4. **17:xx** — 53 % (28 missing) — late afternoon
+5. **18:xx** — 53 % (28 missing) — evening, dinner, social scenes
+6. **19:xx** — 55 % (27 missing) — evening
 7. **22:xx** — 55 % (27 missing) — night
-8. **19:xx** — 55 % (27 missing) — evening
-9. **02:xx** — 57 % (26 missing)
+8. **21:xx** — 57 % (26 missing) — evening
+9. **02:xx** — 58 % (25 missing)
 10. **05:xx** — 60 % (24 missing)
-11. **07:xx** — 60 % (24 missing)
-12. **03:xx** / **13:xx** / **15:xx** — 62 % (23 missing each)
-13. **04:xx** — 63 % (22 missing)
-14. **20:xx** — 65 % (21 missing)
-15. **12:xx** — 67 % (20 missing)
-16. **10:xx** — 70 % (18 missing)
-17. **09:xx** — 75 % (15 missing)
-18. **11:xx** — 77 % (14 missing)
-19. **00:xx** / **08:xx** / **23:xx** — 73 % (16 missing each)
-20. **16:xx** — 90 % (6 missing) — finish last
+11. **07:xx** / **13:xx** — 62 % (23 missing each)
+12. **04:xx** — 63 % (22 missing)
+13. **03:xx** / **15:xx** — 65 % (21 missing each)
+14. **20:xx** — 67 % (20 missing)
+15. **10:xx** — 70 % (18 missing)
+16. **12:xx** / **23:xx** — 73 % (16 missing each)
+17. **00:xx** / **09:xx** — 75 % (15 missing each)
+18. **08:xx** / **11:xx** — 77 % (14 missing each)
+19. **16:xx** — 90 % (6 missing) — finish last
 
 ---
 
