@@ -9,9 +9,9 @@ This document tracks every minute of the day that currently lacks a literary quo
 | Metric | Value |
 |---|---|
 | Total minutes in a day | 1,440 |
-| Minutes with at least one quote | 902 |
-| **Minutes with no quote (gaps)** | **538** |
-| Overall coverage | **62.6 %** |
+| Minutes with at least one quote | 903 |
+| **Minutes with no quote (gaps)** | **537** |
+| Overall coverage | **62.7 %** |
 
 ### Coverage by Hour
 
@@ -31,7 +31,7 @@ This document tracks every minute of the day that currently lacks a literary quo
 | 11:xx | 46 / 60 | 14 | 77 % |
 | 12:xx | 40 / 60 | 20 | 67 % |
 | 13:xx | 37 / 60 | 23 | 62 % |
-| 14:xx | 28 / 60 | 32 | 47 % ⚠️ |
+| 14:xx | 29 / 60 | 31 | 48 % ⚠️ |
 | 15:xx | 37 / 60 | 23 | 62 % |
 | 16:xx | 54 / 60 | 6  | 90 % ✅ |
 | 17:xx | 32 / 60 | 28 | 53 % |
@@ -92,8 +92,8 @@ Times are in 24-hour `H:MM` format, matching the `timecode` field in the dataset
 ### Hour 13 — 23 missing
 `13:07` `13:08` `13:12` `13:14` `13:19` `13:21` `13:22` `13:27` `13:28` `13:29` `13:31` `13:35` `13:36` `13:38` `13:40` `13:41` `13:43` `13:46` `13:51` `13:52` `13:53` `13:54` `13:56`
 
-### Hour 14 — 32 missing ⚠️ (lowest coverage)
-`14:03` `14:07` `14:08` `14:09` `14:11` `14:12` `14:14` `14:17` `14:18` `14:21` `14:23` `14:24` `14:26` `14:27` `14:29` `14:31` `14:33` `14:34` `14:35` `14:37` `14:38` `14:42` `14:44` `14:46` `14:47` `14:48` `14:49` `14:51` `14:52` `14:53` `14:57` `14:59`
+### Hour 14 — 31 missing ⚠️ (lowest coverage)
+`14:03` `14:07` `14:08` `14:09` `14:11` `14:12` `14:14` `14:17` `14:18` `14:21` `14:23` `14:24` `14:26` `14:27` `14:29` `14:31` `14:34` `14:35` `14:37` `14:38` `14:42` `14:44` `14:46` `14:47` `14:48` `14:49` `14:51` `14:52` `14:53` `14:57` `14:59`
 
 ### Hour 15 — 23 missing
 `15:02` `15:06` `15:11` `15:12` `15:17` `15:18` `15:19` `15:21` `15:22` `15:24` `15:26` `15:28` `15:31` `15:34` `15:36` `15:38` `15:42` `15:43` `15:46` `15:47` `15:48` `15:52` `15:54`
@@ -130,7 +130,7 @@ Times are in 24-hour `H:MM` format, matching the `timecode` field in the dataset
 
 Target hours in order of lowest coverage first, then finish the near-complete hours last:
 
-1. **14:xx** — 47 % (32 missing) — afternoon, lots of literary action scenes
+1. **14:xx** — 48 % (31 missing) — afternoon, lots of literary action scenes
 2. **01:xx** — 50 % (30 missing) — late-night, rich in literary insomnia/drama
 3. **06:xx** — 50 % (30 missing) — dawn, rich in literary awakenings
 4. **18:xx** — 52 % (29 missing) — evening, dinner, social scenes
